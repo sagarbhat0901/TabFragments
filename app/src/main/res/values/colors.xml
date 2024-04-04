@@ -1,0 +1,7 @@
+<resources>
+    <color name="tab1_background">#FFC107</color>
+    <color name="tab2_background">#4CAF50</color>
+    <color name="tab3_background">#B5421E</color>
+    <color name="default_background">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TabFragments</string>
+    <string name="tab1_content">NEWS</string>
+    <string name="tab2_content">DRAMA</string>
+    <string name="tab3_content">MOVIES</string>
+    <string name="default_content">Default Content</string>
+</resources>
