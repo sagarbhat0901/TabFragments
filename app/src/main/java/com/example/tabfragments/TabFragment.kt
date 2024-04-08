@@ -18,13 +18,23 @@ class TabFragment : Fragment() {
          * @return A new instance of TabFragment.
          */
         fun newInstance(tabNumber: Int): TabFragment {
+            // Create a new instance of TabFragment
             val fragment = TabFragment()
+
+            // Create a new Bundle to hold arguments
             val args = Bundle()
+
+            // Put the tabNumber value into the arguments Bundle with a specific key
             args.putInt(ARG_TAB_NUMBER, tabNumber)
+
+            // Set the arguments Bundle to the fragment
             fragment.arguments = args
+
+            // Return the newly created instance of TabFragment with arguments
             return fragment
         }
     }
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
